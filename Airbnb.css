@@ -1,0 +1,271 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-landing-page{
+  background-image: url(交流画像　.jpeg);
+  background-size: cover;
+  background-position: 0px 0px;
+  height: 550px;
+  width: 100%;
+}
+
+h1{
+  padding-bottom: 0px;
+  padding-top: 460px;
+  margin-top: 0px;
+  text-align: center;
+  color:#EEEEEE;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.revenue-check>h2{
+  margin-left: 50px;
+  font-size: 20px;
+  color:#111111;
+}
+
+.location-selection{
+  margin-left: 50px;
+  width: 600px;
+  font-size: 20px;
+}
+
+.room-selection{
+  margin-left: 50px;
+  width: 300px;
+  height: 25px;
+  color: gray;
+}
+
+.guests-selection{
+  width: 300px;
+  height: 25px;
+  color: gray;
+}
+
+.start-button{
+  margin-left: 50px;
+  width: 605px;
+  float: none;
+  height: 30px;
+  font-size: 18px;
+  background-color: #FF3333;
+  color: #EEEEEE;
+}
+
+.use-for-border{
+  border: solid 0.7px;
+  width: 88px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.airbnb-btn{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.airbnb-reason{
+  color: gray;
+}
+
+.airbnb-insurance{
+  padding-right: 50px;
+  color: gray;
+}
+
+.airbnb-authentication{
+  color: gray;
+  margin-left: 105px;
+}
+
+.hosting-steps>h3{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+
+
+.hosting-btn{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 13px;
+  color: gray;
+}
+
+.welcoming-guests{
+  margin-left: 105px;
+  color: gray;
+}
+
+.welcoming-guests>a:hover{
+  background-color: turquoise;
+}
+
+.number1{
+  border: solid 1px;
+  font-size: 30px;
+  border-radius: 25px 25px;
+  width: 50px;
+  text-align: center;
+  background-color: turquoise;
+  border-color: white;
+  color: #EEEEEE;
+}
+
+.number2{
+  border: solid 1px;
+  font-size: 30px;
+  border-radius: 25px 25px;
+  width: 50px;
+  text-align: center;
+  background-color: turquoise;
+  border-color: white;
+  color: #EEEEEE;
+}
+
+.number3{
+  border: solid 1px;
+  font-size: 30px;
+  border-radius: 25px 25px;
+  width: 50px;
+  text-align: center;
+  background-color: turquoise;
+  border-color: white;
+  color: #EEEEEE;
+}
+
+.tessa-description{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+
+.practical-hosting-example{
+  text-decoration: none;
+  border: solid 1px;
+  border-color: #444444;
+  border-radius: 3px 3px;
+  color: #444444;
+  padding: 15px;
+}
+
+.answer-to-questions>h2{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.answer-to-questions>a{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: block;
+  text-decoration: none;
+  color: turquoise;
+  border-bottom: solid 1px #EEEEEE;
+  padding-right: -80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+._1eh1yeb{
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.jij{
+  background-image: url(t02200147_0800053313485713491.jpg);
+  background-size: cover;
+  background-position: 30% 70%;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.avjij{
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.avjij>a{
+  display: inline-block;
+  text-decoration: none;
+  border: solid 1px;
+  color: #444444;
+  border-color: #EEEEEE;
+  border-radius: 13px 13px;
+  background-color: #EEEEEE;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+footer{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fter>ul>li{
+  list-style: none; 
+}
+
+.fter>ul>li>a{
+  text-decoration: none;
+}
+
+.fter>h4{
+  margin-left: 39px;
+}
+
+.koo{
+  border: solid 1px green;
+  border-radius: 15px 15px;
+  padding: 3px;
+  background-color: green;
+}
+
+.hugy{
+  border-top: solid 0.7px;
+  padding-top: 50px;
+  width: 913px;
+}
+
+
+
+
+
+
+/* floatによる回り込みは親要素に付与 */
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+
+
